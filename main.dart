@@ -12,6 +12,13 @@ class advance_ui extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+            drawer: Drawer(
+                children: [
+                    ListTile(
+                        leading: Icon()
+                    )
+                ]
+            )
       appBar: AppBar(
         title: Text("Advance UI-UX"),
         centerTitle: true,
